@@ -1,0 +1,93 @@
+/*
+Author: Jared Jacob
+Last Edit: 12-14-2015
+
+This is the style sheet for the Boston Parkour Academy page.
+*/
+body
+{
+	max-width: 1200px;
+	background-color: #000000;
+}
+
+nav 
+{
+    font-weight: bold;
+    width: 100%;
+    /*text-align: center;*/
+    background-color: #000000;
+    padding: 30px;
+    /*position: fixed;*/
+    /*bottom: 0px;*/
+}
+
+nav a
+{
+    padding: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+nav a:hover 
+{
+	color: #FFFFFF;
+	/* 
+	red : #ff5050
+	green : #35af3b; 
+	*/
+    background-color: #cc0000;
+}
+
+.panel 
+{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d8d8d8;
+  margin-bottom: 1.25rem;
+  padding: 1.25rem;
+  background: #f2f2f2;
+  color: #333333; 
+
+  margin-top: 1.25rem;
+}
+
+.Location
+{
+	color: white;
+}
+
+
+/* Gathered from http://www.labnol.org/internet/embed-responsive-google-maps/28333/
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+*/
+
+
+#backgroundImage {
+	max-width: 100%;
+}
+
+.imagePlaceholder 
+{
+height: 400px;
+width: 400px;
+
+border-style: solid;
+border-width: 5px;
+border-color: #cc0000;
+
+float right;
+}
